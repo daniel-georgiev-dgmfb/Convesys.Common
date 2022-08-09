@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Convesys.Common.Serialisation.Binary\Convesys.Common.Serialisation.Binary.csproj" />
+    <ProjectReference Include="..\Convesys.Common.Serialisation.Binary\Platform.Common.Serialisation.Binary.csproj" />
   </ItemGroup>
 
 </Project>
