@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>NET6.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Base Implementation of CQRS.</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Convesys.Common.CQRS.Messaging" Version="1.0.0" />
+    <PackageReference Include="Convesys.Common.MessageHandling" Version="1.0.0" />
+    <PackageReference Include="Convesys.Common.Messaging" Version="1.0.0" />
+    <PackageReference Include="Convesys.Common.Transport" Version="1.0.0" />
+    <PackageReference Include="Convesys.Kernel" Version="1.0.0" />
+    <PackageReference Include="Convesys.Kernel.Data" Version="1.0.1" />
+    <PackageReference Include="Convesys.Kernel.Messaging" Version="1.0.0" />
+    <PackageReference Include="Convesys.Kernel.Projections" Version="1.0.2" />
+    <PackageReference Include="Convesys.Kernel.Transport" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

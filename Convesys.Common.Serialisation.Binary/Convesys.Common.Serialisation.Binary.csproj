@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>NET6.0</TargetFramework>
+    <RootNamespace>Convesys.Common.Serialisation.Binary</RootNamespace>
+    <AssemblyName>Convesys.Common.Serialisation.Binary</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Provides Binary Serialisation and Deserialisation.</Description>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Convesys.Kernel" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

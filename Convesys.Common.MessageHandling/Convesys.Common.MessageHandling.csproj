@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>NET6.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Message handling implementation including message handler resolution and invocation</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Convesys.Kernel" Version="1.0.0" />
+    <PackageReference Include="Convesys.Kernel.Logging" Version="1.0.0" />
+    <PackageReference Include="Convesys.Kernel.Message.Handling" Version="1.0.0" />
+    <PackageReference Include="Convesys.Kernel.Reflection" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
