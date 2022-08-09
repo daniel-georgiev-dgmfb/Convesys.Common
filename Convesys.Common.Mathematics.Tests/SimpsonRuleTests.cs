@@ -42,7 +42,7 @@ namespace Convesys.Common.Mathematics.Tests
             ////Execute
             var resS = await SimpsonRule.Run(func, 1, 4, 10000);
             var resTr = await TrapezoidalRule.Run(func, 1, 4, 10000);
-            var resTrAsync = await TrapezoidalRule.RunInParallel(func, 1, 4, 10000);
+            var resTrAsync = await TrapezoidalRule.Run(func, 1, 4, 10000);
             var service = new TrapezoidalRule_Third_Party(new DoubleFunctionClass.DoubleFunction(x => Task.FromResult(x)));
 
             var r = service.CalculateIntegratelIn(1, 4).Result;

@@ -1,10 +1,6 @@
+using NUnit.Framework;
 using System;
 using System.Threading.Tasks;
-using Convesys.Common.Tenancy.Tests.L0.MockData;
-using Convesys.Kernel.Tenancy;
-using Convesys.Kernel.Web.Authorisation;
-using Moq;
-using NUnit.Framework;
 
 namespace Convesys.Common.Tenancy.Tests.L0
 {
