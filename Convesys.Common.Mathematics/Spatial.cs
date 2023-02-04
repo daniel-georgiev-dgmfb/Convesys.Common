@@ -12,7 +12,7 @@
                 throw new ArgumentException("The arrays supplied are with a different length.");
             var distance = 0.00;
             var zipped = point1.Zip(point2);
-            var foo = zipped.Aggregate(distance, (a, b) =>
+            var aggregated = zipped.Aggregate(distance, (a, b) =>
             {
                 var sq = (b.First - b.Second) * (b.First - b.Second);
                 distance = distance + sq;
