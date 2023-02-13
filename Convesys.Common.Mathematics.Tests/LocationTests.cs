@@ -32,9 +32,9 @@ namespace Platform.Common.Mathematics.Tests
             var y3 = -120L;
             var x = -10L;
             var y = 30L;
-            var r1 = Math.Pow(((x - x1) * (x - x1) + (y - y1) * (y - y1)), 0.5);
-            var r2 = Math.Pow(((x - x2) * (x - x2) + (y - y2) * (y - y2)), 0.5);
-            var r3 = Math.Pow(((x - x3) * (x - x3)) + ((y - y3) * (y- y3)), 0.5);
+            var r1 = Math.Pow((x - x1) * (x - x1) + (y - y1) * (y - y1), 0.5);
+            var r2 = Math.Pow((x - x2) * (x - x2) + (y - y2) * (y - y2), 0.5);
+            var r3 = Math.Pow((x - x3) * (x - x3) + (y - y3) * (y- y3), 0.5);
             var tuple1 = Tuple.Create(x1, y1, r1);
             var tuple2 = Tuple.Create(x2, y2, r2);
             var tuple3 = Tuple.Create(x3, y3, r3);
