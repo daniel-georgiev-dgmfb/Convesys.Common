@@ -43,5 +43,19 @@ namespace Platform.Common.Mathematics.Tests
             Assert.That(-10.00 == Math.Round(location.Item1, 2));
             Assert.That(30.00 == Math.Round(location.Item2, 2));
         }
+
+        [Test]
+        public async Task DistanceTest_L0()
+        {
+            //Arrange
+            var tuple1 = Tuple.Create(41.507483f, -99.436554f);
+            var tuple2 = Tuple.Create(38.504048f, -98.315949f);
+
+            //Execute
+            var distance = await Spatial.CalculateDistance(tuple1, tuple2);
+
+            //Assert
+            Assert.That(347.3 == Math.Round(distance, 2));
+        }
     }
 }
