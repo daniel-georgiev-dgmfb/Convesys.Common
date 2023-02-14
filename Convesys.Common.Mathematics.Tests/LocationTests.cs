@@ -13,7 +13,7 @@ namespace Platform.Common.Mathematics.Tests
         }
 
         [Test]
-        public async Task LcationTest_L0()
+        public async Task LocationTest_L0()
         {
             //Arrange
             //var x1 = Random.Shared.NextInt64(-150, -80);
