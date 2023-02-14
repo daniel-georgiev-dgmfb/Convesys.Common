@@ -1,7 +1,4 @@
-using Convesys.Common.Mathematics;
-using NUnit.Framework;
-using System;
-using System.Threading.Tasks;
+using Platform.Common.Location;
 
 namespace Platform.Common.Mathematics.Tests
 {
@@ -43,8 +40,8 @@ namespace Platform.Common.Mathematics.Tests
             var location = await Spatial.GetLocation(tuple1, tuple2, tuple3);
             
             //Assert
-            Assert.AreEqual(-10.00, Math.Round(location.Item1, 2));
-            Assert.AreEqual(30.00, Math.Round(location.Item2, 2));
+            Assert.That(-10.00 == Math.Round(location.Item1, 2));
+            Assert.That(30.00 == Math.Round(location.Item2, 2));
         }
     }
 }
