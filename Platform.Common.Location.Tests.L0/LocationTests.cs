@@ -37,7 +37,7 @@ namespace Platform.Common.Mathematics.Tests
             var tuple3 = Tuple.Create(x3, y3, r3);
             
             //Execute
-            var location = await new Spatial().GetLocation(tuple1, tuple2, tuple3);
+            var location = await new LocationService().GetLocation(tuple1, tuple2, tuple3);
             
             //Assert
             Assert.That(-10.00 == Math.Round(location.Item1, 2));
@@ -52,7 +52,7 @@ namespace Platform.Common.Mathematics.Tests
             var tuple2 = Tuple.Create(38.504048f, -98.315949f);
 
             //Execute
-            var distance = await new Spatial().CalculateDistance(tuple1, tuple2);
+            var distance = await new LocationService().CalculateDistance(tuple1, tuple2);
 
             //Assert
             Assert.That(347.3 == Math.Round(distance, 2));

@@ -2,7 +2,7 @@
 
 namespace Platform.Common.Location
 {
-    public class Spatial : ILocationService
+    public class LocationService : ILocationService
     {
         const int R = 6371;
         public Task<Tuple<double, double>> GetLocation(Tuple<long, long, double> readings1, Tuple<long, long, double> readings2, Tuple<long, long, double> readings3)
