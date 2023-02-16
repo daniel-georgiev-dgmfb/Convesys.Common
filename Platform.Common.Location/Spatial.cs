@@ -1,9 +1,11 @@
-﻿namespace Platform.Common.Location
+﻿using Convesys.Kernel.Spatial;
+
+namespace Platform.Common.Location
 {
-    public class Spatial
+    public class Spatial : ILocationService
     {
         const int R = 6371;
-        public static Task<Tuple<double, double>> GetLocation(Tuple<long, long, double> readings1, Tuple<long, long, double> readings2, Tuple<long, long, double> readings3)
+        public Task<Tuple<double, double>> GetLocation(Tuple<long, long, double> readings1, Tuple<long, long, double> readings2, Tuple<long, long, double> readings3)
         {
             var A = 2 * readings2.Item1 - 2 * readings1.Item1;
             var B = 2 * readings2.Item2 - 2 * readings1.Item2;
@@ -16,7 +18,7 @@
             return Task.FromResult(Tuple.Create(x, y));
         }
 
-        public static Task<float> CalculateDistance(Tuple<float, float> coordinatesFrom, Tuple<float, float> coordinatesTo)
+        public Task<float> CalculateDistance(Tuple<float, float> coordinatesFrom, Tuple<float, float> coordinatesTo)
         {
             var ΔlatDifference = coordinatesFrom.Item1 - coordinatesTo.Item1;
             var ΔlonDifference = coordinatesFrom.Item2 - coordinatesTo.Item2;
