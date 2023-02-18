@@ -1,4 +1,5 @@
 using Platform.Common.Location;
+using System.Diagnostics;
 
 namespace Platform.Common.Mathematics.Tests
 {
@@ -50,10 +51,26 @@ namespace Platform.Common.Mathematics.Tests
             //Arrange
             var tuple1 = Tuple.Create(41.507483f, -99.436554f);
             var tuple2 = Tuple.Create(38.504048f, -98.315949f);
-
+            var service = new LocationService();
             //Execute
-            var distance = await new LocationService().CalculateDistance(tuple1, tuple2);
+            var distance = await service.CalculateDistance(tuple1, tuple2);
+            var distance1 = await service.DistanceInKmBetweenEarthCoordinates(41.507483f, -99.436554f, 38.504048f, -98.315949f);
+            Debug.Print(distance.ToString());
+            //Assert
+            Assert.That(347.3 == Math.Round(distance, 2));
+        }
 
+        [Test]
+        public async Task DistanceTest1_L0()
+        {
+            //Arrange
+            var tuple1 = Tuple.Create(51.5f, 0f);
+            var tuple2 = Tuple.Create(38.8f, -77.1f);
+            var service = new LocationService();
+            //Execute
+            var distance = await service.CalculateDistance(tuple1, tuple2);
+            var distance1 = await service.DistanceInKmBetweenEarthCoordinates(tuple1.Item1, tuple1.Item2, tuple2.Item1, tuple2.Item2);
+            Debug.Print(distance.ToString());
             //Assert
             Assert.That(347.3 == Math.Round(distance, 2));
         }

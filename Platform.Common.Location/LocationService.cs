@@ -18,15 +18,49 @@ namespace Platform.Common.Location
             return Task.FromResult(Tuple.Create(x, y));
         }
 
+        /// <summary>
+        /// https://www.igismap.com/haversine-formula-calculate-geographic-distance-earth/
+        /// </summary>
+        /// <param name="coordinatesFrom"></param>
+        /// <param name="coordinatesTo"></param>
+        /// <returns></returns>
         public Task<float> CalculateDistance(Tuple<float, float> coordinatesFrom, Tuple<float, float> coordinatesTo)
         {
-            var ΔlatDifference = coordinatesFrom.Item1 - coordinatesTo.Item1;
-            var ΔlonDifference = coordinatesFrom.Item2 - coordinatesTo.Item2;
-            var a = MathF.Pow( MathF.Sin(ΔlatDifference / 2), 2) + MathF.Cos(coordinatesFrom.Item1) * MathF.Cos(coordinatesTo.Item2) * MathF.Pow( MathF.Sin(ΔlonDifference / 2), 2);
+            var ΔlatDifference = MathF.PI * (coordinatesFrom.Item1 - coordinatesTo.Item1) / 180;
+            var ΔlonDifference = MathF.PI * (coordinatesFrom.Item2 - coordinatesTo.Item2) / 180;
+            var a = MathF.Pow( MathF.Sin(ΔlatDifference / 2), 2) + (MathF.Cos(this.DegreesToRadians(coordinatesFrom.Item1)) * MathF.Cos(this.DegreesToRadians(coordinatesTo.Item2)) * MathF.Pow( MathF.Sin(ΔlonDifference / 2), 2));
             var oneminusa = MathF.Sqrt((1 - a) * (1 - a));
             var c = 2 * MathF.Atan2(MathF.Sqrt(a), MathF.Sqrt(oneminusa));
             var d = R * c;
             return Task.FromResult(d);
+        }
+
+        /// <summary>
+        /// https://stackoverflow.com/questions/365826/calculate-distance-between-2-gps-coordinates
+        /// </summary>
+        /// <param name="lat1"></param>
+        /// <param name="lon1"></param>
+        /// <param name="lat2"></param>
+        /// <param name="lon2"></param>
+        /// <returns></returns>
+        public Task<float> DistanceInKmBetweenEarthCoordinates(float lat1, float lon1, float lat2, float lon2)
+        {
+            var earthRadiusKm = 6371;
+
+            var dLat = DegreesToRadians(lat2 - lat1);
+            var dLon = DegreesToRadians(lon2 - lon1);
+
+            lat1 = DegreesToRadians(lat1);
+            lat2 = DegreesToRadians(lat2);
+
+            var a = MathF.Sin(dLat / 2) * MathF.Sin(dLat / 2) + MathF.Sin(dLon / 2) * MathF.Sin(dLon / 2) * MathF.Cos(lat1) * MathF.Cos(lat2);
+            var c = 2 * MathF.Atan2(MathF.Sqrt(a), MathF.Sqrt(1 - a));
+            return Task.FromResult(earthRadiusKm * c);
+        }
+
+        private float DegreesToRadians(float degrees)
+        {
+            return degrees * (float)Math.PI / 180;
         }
     }
 }
