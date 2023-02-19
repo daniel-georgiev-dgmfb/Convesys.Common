@@ -45,13 +45,31 @@ namespace Platform.Common.Location
         /// <returns></returns>
         public Task<float> DistanceInKmBetweenEarthCoordinates(float lat1, float lon1, float lat2, float lon2)
         {
+            var from = Tuple.Create(lat1, lon1);
+            var to = Tuple.Create(lat2, lon2);
+            return this.CalculateDistance(from, to);
+            //var earthRadiusKm = 6371;
+
+            //var dLat = DegreesToRadians(lat2 - lat1);
+            //var dLon = DegreesToRadians(lon2 - lon1);
+
+            //lat1 = DegreesToRadians(lat1);
+            //lat2 = DegreesToRadians(lat2);
+
+            //var a = MathF.Sin(dLat / 2) * MathF.Sin(dLat / 2) + MathF.Sin(dLon / 2) * MathF.Sin(dLon / 2) * MathF.Cos(lat1) * MathF.Cos(lat2);
+            //var c = 2 * MathF.Atan2(MathF.Sqrt(a), MathF.Sqrt(1 - a));
+            //return Task.FromResult(earthRadiusKm * c);
+        }
+
+        public Task<float> DistanceInKmBetweenEarthCoordinates(Tuple<float, float> from, Tuple<float, float> to)
+        {
             var earthRadiusKm = 6371;
 
-            var dLat = DegreesToRadians(lat2 - lat1);
-            var dLon = DegreesToRadians(lon2 - lon1);
+            var dLat = DegreesToRadians(to.Item1 - from.Item1);
+            var dLon = DegreesToRadians(to.Item2 - from.Item2);
 
-            lat1 = DegreesToRadians(lat1);
-            lat2 = DegreesToRadians(lat2);
+            var lat1 = DegreesToRadians(from.Item1);
+            var lat2 = DegreesToRadians(to.Item1);
 
             var a = MathF.Sin(dLat / 2) * MathF.Sin(dLat / 2) + MathF.Sin(dLon / 2) * MathF.Sin(dLon / 2) * MathF.Cos(lat1) * MathF.Cos(lat2);
             var c = 2 * MathF.Atan2(MathF.Sqrt(a), MathF.Sqrt(1 - a));
