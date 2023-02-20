@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Convesys.Common.Tenancy\Platform.Common.Tenancy.csproj" />
+    <ProjectReference Include="..\Convesys.Common.Tenancy\Twilight.Platform.Common.Tenancy.csproj" />
   </ItemGroup>
 
 </Project>

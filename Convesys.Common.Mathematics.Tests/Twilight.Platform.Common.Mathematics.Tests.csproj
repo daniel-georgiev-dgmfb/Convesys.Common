@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Convesys.Common.Mathematics\Platform.Common.Mathematics.csproj" />
+    <ProjectReference Include="..\Convesys.Common.Mathematics\Twilight.Platform.Common.Mathematics.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,61 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Compression.Deflate", "Convesys.Common.Compression.Deflate\Platform.Common.Compression.Deflate.csproj", "{201E92CC-999B-4D01-BA71-E3B375958999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Compression.Deflate", "Convesys.Common.Compression.Deflate\Twilight.Platform.Common.Compression.Deflate.csproj", "{201E92CC-999B-4D01-BA71-E3B375958999}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Configuration", "Convesys.Common.Configuration\Platform.Common.Configuration.csproj", "{B17D2FE9-4DB0-45B3-A6D3-A6DF2B068E52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Configuration", "Convesys.Common.Configuration\Twilight.Platform.Common.Configuration.csproj", "{B17D2FE9-4DB0-45B3-A6D3-A6DF2B068E52}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.CQRS", "Convesys.Common.CQRS\Platform.Common.CQRS.csproj", "{7AFB3A9B-788B-47E9-A635-207C6DDBDB6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.CQRS", "Convesys.Common.CQRS\Twilight.Platform.Common.CQRS.csproj", "{7AFB3A9B-788B-47E9-A635-207C6DDBDB6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.CQRS.Messaging", "Convesys.Common.CQRS.Messaging\Platform.Common.CQRS.Messaging.csproj", "{18154F36-D410-47EE-90B6-58288E947102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.CQRS.Messaging", "Convesys.Common.CQRS.Messaging\Twilight.Platform.Common.CQRS.Messaging.csproj", "{18154F36-D410-47EE-90B6-58288E947102}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Initialisation", "Convesys.Common.Initialisation\Platform.Common.Initialisation.csproj", "{BD7A3F5E-8C55-447D-BA14-7F3B9C1C68B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Initialisation", "Convesys.Common.Initialisation\Twilight.Platform.Common.Initialisation.csproj", "{BD7A3F5E-8C55-447D-BA14-7F3B9C1C68B7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Logging", "Convesys.Common.Logging\Platform.Common.Logging.csproj", "{BB8B667E-1B5C-4717-8AA4-1FF03E7A62CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Logging", "Convesys.Common.Logging\Twilight.Platform.Common.Logging.csproj", "{BB8B667E-1B5C-4717-8AA4-1FF03E7A62CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.MessageHandling", "Convesys.Common.MessageHandling\Platform.Common.MessageHandling.csproj", "{05FC7E99-9D60-42AC-AF7C-13048F8142F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.MessageHandling", "Convesys.Common.MessageHandling\Twilight.Platform.Common.MessageHandling.csproj", "{05FC7E99-9D60-42AC-AF7C-13048F8142F4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Messaging", "Convesys.Common.Messaging\Platform.Common.Messaging.csproj", "{D2106DB4-349F-4EE4-8CBC-C5D0188BA2F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Messaging", "Convesys.Common.Messaging\Twilight.Platform.Common.Messaging.csproj", "{D2106DB4-349F-4EE4-8CBC-C5D0188BA2F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Serialisation.Binary", "Convesys.Common.Serialisation.Binary\Platform.Common.Serialisation.Binary.csproj", "{2FA14795-32C1-45D2-AD37-0F409C2ADAE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Serialisation.Binary", "Convesys.Common.Serialisation.Binary\Twilight.Platform.Common.Serialisation.Binary.csproj", "{2FA14795-32C1-45D2-AD37-0F409C2ADAE1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Serialisation.JSON", "Convesys.Common.Serialisation.JSON\Platform.Common.Serialisation.JSON.csproj", "{44F15E91-4FB3-4A00-B7DC-5A6EDDF5E588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Serialisation.JSON", "Convesys.Common.Serialisation.JSON\Twilight.Platform.Common.Serialisation.JSON.csproj", "{44F15E91-4FB3-4A00-B7DC-5A6EDDF5E588}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Tenancy", "Convesys.Common.Tenancy\Platform.Common.Tenancy.csproj", "{50262675-B136-4CF5-846D-5BEE63D25C10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Tenancy", "Convesys.Common.Tenancy\Twilight.Platform.Common.Tenancy.csproj", "{50262675-B136-4CF5-846D-5BEE63D25C10}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Transport", "Convesys.Common.Transport\Platform.Common.Transport.csproj", "{E6C9F9BC-6594-4F0D-ADE8-E323CFD95990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Transport", "Convesys.Common.Transport\Twilight.Platform.Common.Transport.csproj", "{E6C9F9BC-6594-4F0D-ADE8-E323CFD95990}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Compression.Deflate.Tests.L0", "Convesys.Common.Compression.Deflate.Tests.L0\Platform.Common.Compression.Deflate.Tests.L0.csproj", "{429EFCAA-9DBF-467D-BC74-12F26AE0C3E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Compression.Deflate.Tests.L0", "Convesys.Common.Compression.Deflate.Tests.L0\Twilight.Platform.Common.Compression.Deflate.Tests.L0.csproj", "{429EFCAA-9DBF-467D-BC74-12F26AE0C3E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Configuration.Tests.L0", "Convesys.Common.Configuration.Tests.L0\Platform.Common.Configuration.Tests.L0.csproj", "{35A4CC39-5F86-4543-B6F3-D45AF38A309D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Configuration.Tests.L0", "Convesys.Common.Configuration.Tests.L0\Twilight.Platform.Common.Configuration.Tests.L0.csproj", "{35A4CC39-5F86-4543-B6F3-D45AF38A309D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Logging.Tests.L0", "Convesys.Common.Logging.Tests.L0\Platform.Common.Logging.Tests.L0.csproj", "{7D373086-1D5B-4CB2-B7F5-0713E7726439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Logging.Tests.L0", "Convesys.Common.Logging.Tests.L0\Twilight.Platform.Common.Logging.Tests.L0.csproj", "{7D373086-1D5B-4CB2-B7F5-0713E7726439}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.MessageHandling.Tests.L0", "Convesys.Common.MessageHandling.Tests.L0\Platform.Common.MessageHandling.Tests.L0.csproj", "{80BE2156-79A0-402B-B754-9CAD5FFF3A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.MessageHandling.Tests.L0", "Convesys.Common.MessageHandling.Tests.L0\Twilight.Platform.Common.MessageHandling.Tests.L0.csproj", "{80BE2156-79A0-402B-B754-9CAD5FFF3A21}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Serialisation.Binary.Tests.L0", "Convesys.Common.Serialisation.Binary.Tests.L0\Platform.Common.Serialisation.Binary.Tests.L0.csproj", "{DC325C53-6FD0-4741-92B9-3621FEF11EE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Serialisation.Binary.Tests.L0", "Convesys.Common.Serialisation.Binary.Tests.L0\Twilight.Platform.Common.Serialisation.Binary.Tests.L0.csproj", "{DC325C53-6FD0-4741-92B9-3621FEF11EE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Serialisation.JSON.Tests.L0", "Convesys.Common.Serialisation.JSON.Tests.L0\Platform.Common.Serialisation.JSON.Tests.L0.csproj", "{0A03B88E-BC4F-4204-8FDB-7A3B6D1E0023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Serialisation.JSON.Tests.L0", "Convesys.Common.Serialisation.JSON.Tests.L0\Twilight.Platform.Common.Serialisation.JSON.Tests.L0.csproj", "{0A03B88E-BC4F-4204-8FDB-7A3B6D1E0023}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Tenancy.Tests.L0", "Convesys.Common.Tenancy.Tests.L0\Platform.Common.Tenancy.Tests.L0.csproj", "{68198865-5050-4CCF-9A87-26CB0ECAC770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Tenancy.Tests.L0", "Convesys.Common.Tenancy.Tests.L0\Twilight.Platform.Common.Tenancy.Tests.L0.csproj", "{68198865-5050-4CCF-9A87-26CB0ECAC770}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics", "Convesys.Common.Math\Twilight.Platform.Common.Analytics.csproj", "{1ABBC016-CE1F-419A-B1FF-B472C751CC1C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics.Tests", "Convesys.Common.Math.Tests\Twilight.Platform.Common.Analytics.Tests.csproj", "{49DF59C3-8B5E-4842-A2DC-F9BA06F0C944}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Mathematics", "Convesys.Common.Mathematics\Platform.Common.Mathematics.csproj", "{7F5E8031-F337-4D24-B010-F5056A684180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Mathematics", "Convesys.Common.Mathematics\Twilight.Platform.Common.Mathematics.csproj", "{7F5E8031-F337-4D24-B010-F5056A684180}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Mathematics.Tests", "Convesys.Common.Mathematics.Tests\Platform.Common.Mathematics.Tests.csproj", "{10F0044A-E317-4331-8DC1-8CC131B0FF95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Mathematics.Tests", "Convesys.Common.Mathematics.Tests\Twilight.Platform.Common.Mathematics.Tests.csproj", "{10F0044A-E317-4331-8DC1-8CC131B0FF95}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics.Verification", "Convesys.Common.Analytics.Verification\Twilight.Platform.Common.Analytics.Verification.csproj", "{FE0514E9-BB2B-495B-A991-D5062F58DEFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Analytics.Verification.Tests", "Convesys.Common.Analytics.Verification.Tests\Platform.Common.Analytics.Verification.Tests.csproj", "{2E9C7819-4F9C-4F01-953E-568B321C7EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics.Verification.Tests", "Convesys.Common.Analytics.Verification.Tests\Twilight.Platform.Common.Analytics.Verification.Tests.csproj", "{2E9C7819-4F9C-4F01-953E-568B321C7EFE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics.Python", "Convesys.Common.Analytics.Python\Twilight.Platform.Common.Analytics.Python.csproj", "{912F52B3-587A-416E-9339-688319305B2E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Location", "Platform.Common.Location\Platform.Common.Location.csproj", "{0E66341D-BB7D-4D9D-BE12-D175F2BFA0D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Location", "Platform.Common.Location\Twilight.Platform.Common.Location.csproj", "{0E66341D-BB7D-4D9D-BE12-D175F2BFA0D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Location.Tests.L0", "Platform.Common.Location.Tests.L0\Platform.Common.Location.Tests.L0.csproj", "{13A383A1-A1D6-4A78-97D8-CEAC2BEFA0F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Location.Tests.L0", "Platform.Common.Location.Tests.L0\Twilight.Platform.Common.Location.Tests.L0.csproj", "{13A383A1-A1D6-4A78-97D8-CEAC2BEFA0F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

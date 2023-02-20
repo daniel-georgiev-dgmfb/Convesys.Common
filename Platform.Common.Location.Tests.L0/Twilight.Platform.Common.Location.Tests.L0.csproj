@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Platform.Common.Location\Platform.Common.Location.csproj" />
+    <ProjectReference Include="..\Platform.Common.Location\Twilight.Platform.Common.Location.csproj" />
   </ItemGroup>
 
 </Project>
