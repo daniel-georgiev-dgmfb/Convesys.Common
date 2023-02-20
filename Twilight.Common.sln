@@ -41,23 +41,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Serialisati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Tenancy.Tests.L0", "Convesys.Common.Tenancy.Tests.L0\Platform.Common.Tenancy.Tests.L0.csproj", "{68198865-5050-4CCF-9A87-26CB0ECAC770}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Analytics", "Convesys.Common.Math\Platform.Common.Analytics.csproj", "{1ABBC016-CE1F-419A-B1FF-B472C751CC1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics", "Convesys.Common.Math\Twilight.Platform.Common.Analytics.csproj", "{1ABBC016-CE1F-419A-B1FF-B472C751CC1C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Analytics.Tests", "Convesys.Common.Math.Tests\Platform.Common.Analytics.Tests.csproj", "{49DF59C3-8B5E-4842-A2DC-F9BA06F0C944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics.Tests", "Convesys.Common.Math.Tests\Twilight.Platform.Common.Analytics.Tests.csproj", "{49DF59C3-8B5E-4842-A2DC-F9BA06F0C944}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Mathematics", "Convesys.Common.Mathematics\Platform.Common.Mathematics.csproj", "{7F5E8031-F337-4D24-B010-F5056A684180}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Mathematics.Tests", "Convesys.Common.Mathematics.Tests\Platform.Common.Mathematics.Tests.csproj", "{10F0044A-E317-4331-8DC1-8CC131B0FF95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Analytics.Verification", "Convesys.Common.Analytics.Verification\Platform.Common.Analytics.Verification.csproj", "{FE0514E9-BB2B-495B-A991-D5062F58DEFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics.Verification", "Convesys.Common.Analytics.Verification\Twilight.Platform.Common.Analytics.Verification.csproj", "{FE0514E9-BB2B-495B-A991-D5062F58DEFF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Analytics.Verification.Tests", "Convesys.Common.Analytics.Verification.Tests\Platform.Common.Analytics.Verification.Tests.csproj", "{2E9C7819-4F9C-4F01-953E-568B321C7EFE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Analytics.Python", "Convesys.Common.Analytics.Python\Platform.Common.Analytics.Python.csproj", "{912F52B3-587A-416E-9339-688319305B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twilight.Platform.Common.Analytics.Python", "Convesys.Common.Analytics.Python\Twilight.Platform.Common.Analytics.Python.csproj", "{912F52B3-587A-416E-9339-688319305B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Common.Location", "Platform.Common.Location\Platform.Common.Location.csproj", "{0E66341D-BB7D-4D9D-BE12-D175F2BFA0D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Location", "Platform.Common.Location\Platform.Common.Location.csproj", "{0E66341D-BB7D-4D9D-BE12-D175F2BFA0D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Common.Location.Tests.L0", "Platform.Common.Location.Tests.L0\Platform.Common.Location.Tests.L0.csproj", "{13A383A1-A1D6-4A78-97D8-CEAC2BEFA0F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Common.Location.Tests.L0", "Platform.Common.Location.Tests.L0\Platform.Common.Location.Tests.L0.csproj", "{13A383A1-A1D6-4A78-97D8-CEAC2BEFA0F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

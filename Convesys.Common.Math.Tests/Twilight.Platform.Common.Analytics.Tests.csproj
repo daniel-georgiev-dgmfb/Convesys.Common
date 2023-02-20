@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Convesys.Common.Analytics.Python\Platform.Common.Analytics.Python.csproj" />
-    <ProjectReference Include="..\Convesys.Common.Math\Platform.Common.Analytics.csproj" />
+    <ProjectReference Include="..\Convesys.Common.Analytics.Python\Twilight.Platform.Common.Analytics.Python.csproj" />
+    <ProjectReference Include="..\Convesys.Common.Math\Twilight.Platform.Common.Analytics.csproj" />
   </ItemGroup>
 
 </Project>

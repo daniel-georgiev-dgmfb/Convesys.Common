@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Convesys.Common.Analytics.Verification\Platform.Common.Analytics.Verification.csproj" />
+    <ProjectReference Include="..\Convesys.Common.Analytics.Verification\Twilight.Platform.Common.Analytics.Verification.csproj" />
   </ItemGroup>
 
 </Project>
