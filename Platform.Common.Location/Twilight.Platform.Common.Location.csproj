@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Convesys.Kernel.Spatial" Version="1.0.0" />
+    <PackageReference Include="Twiligth.Platform.Kernel.Spatial" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace Convesys.Common.Mathematics
+﻿namespace Twilight.Platform.Common.Mathematics
 {
     public class Spatial
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Convesys.Common.Mathematics
+namespace Twilight.Platform.Common.Mathematics
 {
     /// <summary>
     ///Approximate an area under a curve.

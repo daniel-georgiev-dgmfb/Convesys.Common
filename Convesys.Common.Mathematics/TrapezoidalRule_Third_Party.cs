@@ -1,7 +1,6 @@
-﻿using System.Threading.Tasks;
-using static Convesys.Common.Mathematics.DoubleFunctionClass;
+﻿using static Twilight.Platform.Common.Mathematics.DoubleFunctionClass;
 
-namespace Convesys.Common.Mathematics
+namespace Twilight.Platform.Common.Mathematics
 {
     /// <summary>
     /// Simple implementation of the trapezoid rule. Maximum number of iterations 

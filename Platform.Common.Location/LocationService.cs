@@ -1,6 +1,6 @@
-﻿using Convesys.Kernel.Spatial;
+﻿using Twilight.Kernel.Spatial;
 
-namespace Platform.Common.Location
+namespace Twilight.Platform.Common.Location
 {
     public class LocationService : ILocationService
     {
