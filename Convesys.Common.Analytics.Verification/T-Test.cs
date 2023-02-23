@@ -1,4 +1,4 @@
-﻿namespace Convesys.Common.Analytics.Verification
+﻿namespace Twilight.Common.Analytics.Verification
 {
     public class TTest
     {
