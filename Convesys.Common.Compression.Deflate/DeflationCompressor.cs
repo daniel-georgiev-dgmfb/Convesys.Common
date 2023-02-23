@@ -2,9 +2,9 @@
 using System.IO;
 using System.IO.Compression;
 using System.Threading.Tasks;
-using Convesys.Kernel.Compression;
+using Twilight.Kernel.Compression;
 
-namespace Convesys.Common.Compression.Deflation
+namespace Twilight.Common.Compression.Deflation
 {
     public class DeflationCompressor : ICompressor
     {
