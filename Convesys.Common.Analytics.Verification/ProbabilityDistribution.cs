@@ -11,7 +11,7 @@ namespace Convesys.Common.Analytics.Verification
     /// represent distributions of random variables.
     /// </summary>
     [Serializable]
-    public abstract class ProbabilityDistribution //: ICloneable
+    public abstract class ProbabilityDistribution : ICloneable
     {
         /// <summary>
         /// Maximum number of iterations to execute while computing the various
