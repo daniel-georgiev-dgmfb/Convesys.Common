@@ -2,9 +2,9 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
-using Convesys.Kernel.Serialisation;
+using Twilight.Kernel.Serialisation;
 
-namespace Convesys.Common.Serialisation.Binary
+namespace Twilight.Common.Serialisation.Binary
 {
     [Obsolete("Use JSON serialization. Binary has been made obsolete. For reference https://docs.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/5.0/binaryformatter-serialization-obsolete")]
     public class BinarySerialiser : ISerialiser

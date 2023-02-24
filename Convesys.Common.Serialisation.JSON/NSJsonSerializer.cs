@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using Convesys.Kernel.Serialisation;
-using Newtonsoft.Json;
+using Twilight.Kernel.Serialisation;
 
-namespace Convesys.Common.Serialisation.JSON
+namespace Twilight.Common.Serialisation.JSON
 {
     public class NSJsonSerializer : IJsonSerialiser
     {

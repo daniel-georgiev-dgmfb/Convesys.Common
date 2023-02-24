@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Convesys.Common.Serialisation.JSON.SettingsProviders
+namespace Twilight.Common.Serialisation.JSON.SettingsProviders
 {
     public class DefaultSettingsProvider : SettingsProvider
     {

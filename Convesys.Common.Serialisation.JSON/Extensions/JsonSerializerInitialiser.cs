@@ -1,11 +1,12 @@
-﻿using Convesys.Common.Serialisation.JSON.SettingsProviders;
-using Convesys.Kernel.DependencyResolver;
-using Convesys.Kernel.Serialisation;
+﻿
 using Newtonsoft.Json;
 using System;
 using System.Diagnostics.CodeAnalysis;
+using Twilight.Common.Serialisation.JSON.SettingsProviders;
+using Twilight.Kernel.DependencyResolver;
+using Twilight.Kernel.Serialisation;
 
-namespace Convesys.Common.Serialisation.JSON.Extensions
+namespace Twilight.Common.Serialisation.JSON.Extensions
 {
     [ExcludeFromCodeCoverage]
     public static class JsonSerializerInitialiser

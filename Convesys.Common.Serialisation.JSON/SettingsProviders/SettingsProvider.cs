@@ -1,7 +1,7 @@
-﻿using Convesys.Kernel.Serialisation;
+﻿using Twilight.Kernel.Serialisation;
 using Newtonsoft.Json;
 
-namespace Convesys.Common.Serialisation.JSON.SettingsProviders
+namespace Twilight.Common.Serialisation.JSON.SettingsProviders
 {
     public abstract class SettingsProvider : ISerialisationSettingsProvider<JsonSerializerSettings>
     {
