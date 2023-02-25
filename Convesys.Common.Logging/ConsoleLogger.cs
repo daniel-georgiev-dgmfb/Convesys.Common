@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Convesys.Kernel.Logging;
+using Twilight.Kernel.Logging;
 
-namespace Convesys.Common.Logging
+namespace Twilight.Common.Logging
 {
     [Obsolete("Use add console instead.", true)]
     public class ConsoleLogger : IEventLogger

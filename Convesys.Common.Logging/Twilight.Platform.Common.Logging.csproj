@@ -15,9 +15,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Convesys.Kernel" Version="1.0.0" />
-    <PackageReference Include="Convesys.Kernel.Logging" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Twilight.Platform.Kernel.Kernel" Version="1.0.0" />
+    <PackageReference Include="Twilight.Platform.Kernel.Logging" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

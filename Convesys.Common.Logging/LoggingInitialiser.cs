@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using Convesys.Kernel.DependencyResolver;
+using Twilight.Kernel.DependencyResolver;
 
 namespace Convesys.Common.Logging
 {
