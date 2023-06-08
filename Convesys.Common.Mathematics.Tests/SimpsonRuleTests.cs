@@ -1,9 +1,10 @@
 ﻿using NUnit.Framework;
 using System;
 using System.Threading.Tasks;
+using Twilight.Platform.Common.Mathematics;
 using static System.Math;
 
-namespace Convesys.Common.Mathematics.Tests
+namespace Twilight.Common.Mathematics.Tests
 {
     internal class SimpsonRuleTests
     {

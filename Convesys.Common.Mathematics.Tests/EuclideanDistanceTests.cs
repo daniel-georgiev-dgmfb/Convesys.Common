@@ -1,8 +1,9 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Twilight.Platform.Common.Mathematics;
 
-namespace Convesys.Common.Mathematics.Tests
+namespace Twilight.Common.Mathematics.Tests
 {
     public class EuclideanDistanceTests
     {
